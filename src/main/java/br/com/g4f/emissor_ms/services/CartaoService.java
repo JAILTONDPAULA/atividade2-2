@@ -18,7 +18,7 @@ public class CartaoService {
     @Autowired
     private EmailService emailService;
 
-    private ResponseEntity<String> sendEmail(Long idProposta) throws IOException {
+    public ResponseEntity<String> sendEmail(Long idProposta) throws IOException {
         //implementar registro do cartão
 
         var  resource = new ClassPathResource("templates/email-cartao.html");
