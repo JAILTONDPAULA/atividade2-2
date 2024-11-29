@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: emissor-ms
+  datasource:
+    url: jdbc:postgresql://localhost:83/postgres
+    username: postgres
+    password: abc1234
+server:
+  port: 88
